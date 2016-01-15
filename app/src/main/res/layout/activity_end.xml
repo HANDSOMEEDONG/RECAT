@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#03A9F4"
+
+            >
+
+            <ImageView
+
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:padding="2dp"
+                android:src="@drawable/control_tower"
+                android:scaleType="fitXY"
+                android:background="#03A9F4"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="6dp"
+                android:gravity="left"
+                android:padding="4dp"
+                android:text="RECAT Trainer"
+                android:textSize="26dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:background="#03A9F4"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+
+
+
+            android:onClick="startTraining"
+            android:text="Lost !"
+            android:textColor="@color/buttonTextColor"
+            android:background="@drawable/rounded_corner"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
